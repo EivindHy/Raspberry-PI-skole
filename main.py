@@ -4,8 +4,6 @@ from deepface import DeepFace
 
 import sys
 
-sys.path.append('/usr/local/lib/python2.7/site-packages')
-
 cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
